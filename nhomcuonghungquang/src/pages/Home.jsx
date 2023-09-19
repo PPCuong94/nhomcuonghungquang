@@ -7,9 +7,8 @@ import Helmet from "../components/Helmet/Helmet";
 import "../styles/home.css";
 
 import { Container, Row, Col } from "reactstrap";
-import heroImg from "../assets/images/hero-img.png";
+import heroImg from "../assets/images/Banh1.jpg";
 
-import Services from "./../services/Services";
 // import ProductCard from "../components/UI/ProductCard";
 import ProductsList from "../components/UI/ProductsList";
 
@@ -82,7 +81,6 @@ const Home = () => {
         </Container>
       </section>
 
-      <Services />
       <section className="trending__products">
         <Container>
           <Row>

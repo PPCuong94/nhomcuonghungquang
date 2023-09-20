@@ -6,17 +6,17 @@ import { Col, Form } from "reactstrap";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
-import { cartAction } from "../../redux/slices/cartSlice";
+import { cartActions } from "../../redux/slices/cartSlice";
 
 const ProductCard = ({ item }) => {
   const dispatch = useDispatch();
   const addToCart = () => {
     dispatch(
-      cartAction.addItem({
+      cartActions.addItem({
         id: item.id,
         productName: item.productName,
         price: item.price,
-        image: item.imgUrl,
+        imgUrl: item.imgUrl,
       })
     );
     toast.success("Sản phẩm đã được thêm thành công!");

@@ -9,25 +9,26 @@ import logo from "../../assets/images/eco-logo.png";
 import userIcon from "../../assets/images/user-icon.png";
 
 import { Container, Row } from "reactstrap";
+import { useSelector } from "react-redux";
 
 const nav_links = [
   {
     path: "home",
-    display: "Home",
+    display: "Trang Chủ",
   },
   {
     path: "shop",
-    display: "Shop",
+    display: "Cửa Hàng",
   },
   {
     path: "cart",
-    display: "Cart",
+    display: "Giỏ Hàng",
   },
 ];
 
 const Header = () => {
   const headerRef = useRef(null);
-
+  const totalQuantity = useSelector((state) => state.cart.totalQuantity);
   const menuRef = useRef(null);
 
   const stickyHeaderFunc = () => {
@@ -58,7 +59,7 @@ const Header = () => {
             <div className="logo">
               <img src={logo} alt="logo" />
               <div>
-                <h1>Multimart</h1>
+                <h1>Cake Store</h1>
                 {/* <p>Since 1994</p> */}
               </div>
             </div>
@@ -88,7 +89,7 @@ const Header = () => {
 
               <span className="cart__icon">
                 <i class="ri-shopping-bag-line"></i>
-                <span className="badge">1</span>
+                <span className="badge">{totalQuantity}</span>
               </span>
 
               <span>

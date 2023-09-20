@@ -14,7 +14,7 @@ import ProductsList from "../components/UI/ProductsList";
 
 import Clock from "../components/UI/Clock";
 
-import counterImg from "../assets/images/counter-timer-img.png";
+import counterImg from "../assets/images/kinh_do.png";
 // import { useEffect } from "react";
 // import serviceData from "./../assets/data/serviceData";
 
@@ -109,8 +109,8 @@ const Home = () => {
           <Row>
             <Col lg="6" md="12" className="count__down-col">
               <div className="clock__top-content">
-                <h4 className="text-white fs-6 mb-3">Limited Offers</h4>
-                <h3 className="text-white fs-5 mb-3">Quality Armchair</h3>
+                <h4 className="text-white fs-6 mb-3">Thời hạn ưu đãi</h4>
+                <h3 className="text-white fs-5 mb-3">Sản phẩm bánh ưu đãi</h3>
               </div>
               <Clock />
 
@@ -118,7 +118,7 @@ const Home = () => {
                 whileTap={{ scale: 1.2 }}
                 className="buy__btn store__btn"
               >
-                <Link to="/shop">Visit Store</Link>
+                <Link to="/shop">Ghé vào </Link>
               </motion.button>
             </Col>
 

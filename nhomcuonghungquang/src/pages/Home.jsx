@@ -1,95 +1,92 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from "react";
 
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
+import Helmet from "../components/Helmet/Helmet";
+import "../styles/home.css";
 
-import Helmet from '../components/Helmet/Helmet';
-import '../styles/home.css';
+import { Container, Row, Col } from "reactstrap";
+import heroImg from "../asset/images/Banh1.jpg";
 
-import { Container, Row, Col } from 'reactstrap';
-import heroImg from '../asset/images/Banh1.jpg';
+import ProductsList from "../components/UI/ProductsList";
 
+import Clock from "../components/UI/Clock";
 
-import ProductsList from '../components/UI/ProductsList';
+import counterImg from "../asset/images/kinh_do.png";
 
-import Clock from '../components/UI/Clock';
-
-import counterImg from '../asset/images/kinh_do.png'
-
-import useGetData from '../custom-hooks/useGetData';
+import useGetData from "../custom-hooks/useGetData";
 
 const Home = () => {
+  const { data: products, loading } = useGetData("products");
 
-    const {data: products, loading} = useGetData('products')
+  const [trendingProducts, setTrendingProducts] = useState([]);
+  const [bestSalesProducts, setBestSalesProducts] = useState([]);
+  const [mobileProducts, setMobileProducts] = useState([]);
+  const [wirelessProducts, setWirelessProducts] = useState([]);
+  const [popularProducts, setPopularProducts] = useState([]);
 
-    const [trendingProducts, setTrendingProducts] = useState([]);
-    const [bestSalesProducts, setBestSalesProducts] = useState([]);
-    const [mobileProducts, setMobileProducts] = useState([]);
-    const [wirelessProducts, setWirelessProducts] = useState([]);
-    const [popularProducts, setPopularProducts] = useState([]);
+  const year = new Date().getFullYear();
 
-    const year = new Date().getFullYear();
+  useEffect(() => {
+    // Kiểm tra xem products đã được định nghĩa ở đâu và đảm bảo nó chứa dữ liệu.
+    // Điều này phụ thuộc vào cách bạn lấy dữ liệu sản phẩm.
+    const filterdTrendingProducts = products.filter(
+      (item) => item.category === "Bánh Kem"
+    );
 
-    useEffect(() => {
-        // Kiểm tra xem products đã được định nghĩa ở đâu và đảm bảo nó chứa dữ liệu.
-        // Điều này phụ thuộc vào cách bạn lấy dữ liệu sản phẩm.
-        const filterdTrendingProducts = products.filter(
-            (item) => item.category === "Bánh Kem"
-        );
+    const filterdBestSalesProducts = products.filter(
+      (item) => item.category === "Bánh nướng"
+    );
 
-        const filterdBestSalesProducts = products.filter(
-            (item) => item.category === "Bánh nướng"
-        );
+    const filterdMobileProducts = products.filter(
+      (item) => item.category === "Bánh Bông Lan"
+    );
 
-        const filterdMobileProducts = products.filter(
-            (item) => item.category === "Bánh Bông Lan"
-        );
+    const filterdWirelessProducts = products.filter(
+      (item) => item.category === "Bánh Nướng Trái Cây"
+    );
 
-        const filterdWirelessProducts = products.filter(
-            (item) => item.category === "Bánh Nướng Trái Cây"
-        );
+    const filterdPopularProducts = products.filter(
+      (item) => item.category === "Bánh Dẻo"
+    );
 
-        const filterdPopularProducts = products.filter(
-            (item) => item.category === "Bánh Dẻo"
-        );
+    // Kiểm tra và gán dữ liệu cho các state nếu nó tồn tại.
+    if (setTrendingProducts) {
+      setTrendingProducts(filterdTrendingProducts);
+    }
+    if (setBestSalesProducts) {
+      setBestSalesProducts(filterdBestSalesProducts);
+    }
+    if (setMobileProducts) {
+      setMobileProducts(filterdMobileProducts);
+    }
+    if (setWirelessProducts) {
+      setWirelessProducts(filterdWirelessProducts);
+    }
+    if (setPopularProducts) {
+      setPopularProducts(filterdPopularProducts);
+    }
+  }, [products]);
 
-        // Kiểm tra và gán dữ liệu cho các state nếu nó tồn tại.
-        if (setTrendingProducts) {
-            setTrendingProducts(filterdTrendingProducts);
-        }
-        if (setBestSalesProducts) {
-            setBestSalesProducts(filterdBestSalesProducts);
-        }
-        if (setMobileProducts) {
-            setMobileProducts(filterdMobileProducts);
-        }
-        if (setWirelessProducts) {
-            setWirelessProducts(filterdWirelessProducts);
-        }
-        if (setPopularProducts) {
-            setPopularProducts(filterdPopularProducts);
-        }
-    }, [products]);
+  // Rest of your component code...
 
-    // Rest of your component code...
-
-
-    
-
-    return (
-        <Helmet title={"Home"}>
+  return (
+    <Helmet title={"Home"}>
       <section className="hero__section">
         <Container>
           <Row>
             <Col lg="6" md="6">
               <div className="hero__content">
-                <p className="hero__subtitle">Trending product in {year}</p>
-                <h2>Make Youe Interior More Minimalistic & Modern</h2>
-                <p>Lorem ipsum dolor sit amet consectetur bla bla bla......</p>
+                <p className="hero__subtitle">Sản phẩm xu hướng {year}</p>
+                <h2>BÁNH TRUNG THU CAO CẤP NHẤT</h2>
+                <p>
+                  Thương hiệu bánh trung thu cao cấp đã có thương hiệu 50 năm
+                  tại Sài Gòn
+                </p>
 
                 <motion.button whileTap={{ scale: 1.2 }} className="buy__btn">
-                  <Link to="shop">SHOP NOW</Link>
+                  <Link to="shop">Mua ngay</Link>
                 </motion.button>
               </div>
             </Col>
@@ -107,7 +104,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2 className="section__title">Trending Products</h2>
+              <h2 className="section__title">Sản Phẩm Xu Hướng</h2>
             </Col>
             <ProductsList data={trendingProducts} />
           </Row>
@@ -118,7 +115,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2 className="section__title">Best Sales</h2>
+              <h2 className="section__title">Bán Chạy</h2>
             </Col>
 
             <ProductsList data={bestSalesProducts} />
@@ -155,7 +152,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h2 className="section__title">New Arrivals</h2>
+              <h2 className="section__title">Sản Phẩm Mới</h2>
             </Col>
 
             <ProductsList data={mobileProducts} />
@@ -168,7 +165,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h2 className="section__title">Popular in Category</h2>
+              <h2 className="section__title">Sản Phẩm Phổ Biến</h2>
             </Col>
 
             <ProductsList data={popularProducts} />
@@ -176,7 +173,7 @@ const Home = () => {
         </Container>
       </section>
     </Helmet>
-    );
+  );
 };
 
 export default Home;

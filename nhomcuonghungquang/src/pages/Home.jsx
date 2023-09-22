@@ -1,62 +1,84 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import products from "../assets/data/products";
+import React, {useState, useEffect} from 'react';
 
-import Helmet from "../components/Helmet/Helmet";
-import "../styles/home.css";
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
-import { Container, Row, Col } from "reactstrap";
-import heroImg from "../assets/images/Banh1.jpg";
 
-// import ProductCard from "../components/UI/ProductCard";
-import ProductsList from "../components/UI/ProductsList";
+import Helmet from '../components/Helmet/Helmet';
+import '../styles/home.css';
 
-import Clock from "../components/UI/Clock";
+import { Container, Row, Col } from 'reactstrap';
+import heroImg from '../asset/images/Banh1.jpg';
 
-import counterImg from "../assets/images/kinh_do.png";
-// import { useEffect } from "react";
-// import serviceData from "./../assets/data/serviceData";
+
+import ProductsList from '../components/UI/ProductsList';
+
+import Clock from '../components/UI/Clock';
+
+import counterImg from '../asset/images/kinh_do.png'
+
+import useGetData from '../custom-hooks/useGetData';
 
 const Home = () => {
-  const [trendingProducts, setTrendingProducts] = useState();
-  const [bestSalesProducts, setBestSalesProducts] = useState();
-  const [mobileProducts, setMobileProducts] = useState([]);
-  const [wirelessProducts, setWirelessProducts] = useState([]);
-  const [popularProducts, setPopularProducts] = useState([]);
 
-  const year = new Date().getFullYear();
+    const {data: products, loading} = useGetData('products')
 
-  useEffect(() => {
-    const filteredTrendingProducts = products.filter(
-      (item) => item.category === "chair"
-    );
+    const [trendingProducts, setTrendingProducts] = useState([]);
+    const [bestSalesProducts, setBestSalesProducts] = useState([]);
+    const [mobileProducts, setMobileProducts] = useState([]);
+    const [wirelessProducts, setWirelessProducts] = useState([]);
+    const [popularProducts, setPopularProducts] = useState([]);
 
-    const filteredBestSalesProducts = products.filter(
-      (item) => item.category === "sofa"
-    );
+    const year = new Date().getFullYear();
 
-    const filteredMobileProducts = products.filter(
-      (item) => item.category === "mobile"
-    );
+    useEffect(() => {
+        // Kiểm tra xem products đã được định nghĩa ở đâu và đảm bảo nó chứa dữ liệu.
+        // Điều này phụ thuộc vào cách bạn lấy dữ liệu sản phẩm.
+        const filterdTrendingProducts = products.filter(
+            (item) => item.category === "Bánh Kem"
+        );
 
-    const filteredWirelessProducts = products.filter(
-      (item) => item.category === "wireless"
-    );
+        const filterdBestSalesProducts = products.filter(
+            (item) => item.category === "Bánh nướng"
+        );
 
-    const filteredPopularProducts = products.filter(
-      (item) => item.category === "watch"
-    );
+        const filterdMobileProducts = products.filter(
+            (item) => item.category === "Bánh Bông Lan"
+        );
 
-    setTrendingProducts(filteredTrendingProducts);
-    setBestSalesProducts(filteredBestSalesProducts);
-    setMobileProducts(filteredMobileProducts);
-    setWirelessProducts(filteredWirelessProducts);
-    setPopularProducts(filteredPopularProducts);
-  }, []);
+        const filterdWirelessProducts = products.filter(
+            (item) => item.category === "Bánh Nướng Trái Cây"
+        );
 
-  return (
-    <Helmet title={"Home"}>
+        const filterdPopularProducts = products.filter(
+            (item) => item.category === "Bánh Dẻo"
+        );
+
+        // Kiểm tra và gán dữ liệu cho các state nếu nó tồn tại.
+        if (setTrendingProducts) {
+            setTrendingProducts(filterdTrendingProducts);
+        }
+        if (setBestSalesProducts) {
+            setBestSalesProducts(filterdBestSalesProducts);
+        }
+        if (setMobileProducts) {
+            setMobileProducts(filterdMobileProducts);
+        }
+        if (setWirelessProducts) {
+            setWirelessProducts(filterdWirelessProducts);
+        }
+        if (setPopularProducts) {
+            setPopularProducts(filterdPopularProducts);
+        }
+    }, [products]);
+
+    // Rest of your component code...
+
+
+    
+
+    return (
+        <Helmet title={"Home"}>
       <section className="hero__section">
         <Container>
           <Row>
@@ -154,7 +176,7 @@ const Home = () => {
         </Container>
       </section>
     </Helmet>
-  );
+    );
 };
 
 export default Home;

@@ -1,8 +1,10 @@
-import React from "react";
+import React from 'react';
 
 const Helmet = (props) => {
-  document.title = "FE - Trung Thu - " + props.title;
-  return <div className="w-100">{props.children}</div>;
+
+    document.title = 'FE - Trung Thu - ' + props.title;
+    return <div className="w-100">{props.children}</div>;
+  
 };
 
 export default Helmet;

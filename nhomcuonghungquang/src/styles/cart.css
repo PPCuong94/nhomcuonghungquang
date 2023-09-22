@@ -1,4 +1,5 @@
 .table tr td img {
+<<<<<<< HEAD
   width: 60px !important;
   height: 60px !important;
   object-fit: cover;
@@ -11,3 +12,17 @@ td i {
 td {
   color: var(--primary-color);
 }
+=======
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+}
+
+td i{
+    cursor: pointer;
+}
+
+td, th {
+    color: var(--primary-color);
+}
+>>>>>>> 6587ee3ead99c3325c441deb35373881f7836397

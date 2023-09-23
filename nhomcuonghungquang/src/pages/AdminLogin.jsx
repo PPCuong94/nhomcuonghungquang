@@ -49,7 +49,7 @@ const AdminLogin = () => {
 
                         <Form className='auth__form' onSubmit={signIn}> 
                             <FormGroup className='form__group'>
-                                <input type="email" placeholder='Nhập Enail của bạn' value={email} onChange={e=> setEmail(e.target.value)} />
+                                <input type="email" placeholder='Nhập Email của bạn' value={email} onChange={e=> setEmail(e.target.value)} />
                             </FormGroup>
 
                             <FormGroup className='form__group'>

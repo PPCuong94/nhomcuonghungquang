@@ -24,7 +24,7 @@ const AllProducts = () => {
                                 <th>Hình Ảnh</th>
                                 <th>Tiêu Đề</th>
                                 <th>Loại</th>
-                                <th>Gía</th>
+                                <th>Giá</th>
                                 <th>Hoạt động</th>
                             </tr>
                         </thead>   

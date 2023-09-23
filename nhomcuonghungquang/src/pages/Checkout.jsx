@@ -93,12 +93,12 @@ const Checkout = () => {
 
                         <Col lg='4'>
                             <div className='checkout__cart'>
-                                <h6>Sản Phẩm : <span>{totalQty} Mặt Hàng</span></h6>
-                                <h6>Tổng Phụ: <span>$ {totalAmount}</span></h6>
+                                <h6>Sản Phẩm : <span>{totalQty} Sản phẩm</span></h6>
+                                <h6>Tổng Phụ: <span>${totalAmount}</span></h6>
                                 <h6>
                                     <span>Đang chuyển hàng <br />Miễn phí giao hàng </span><span>Miễn Phí</span>
                                 </h6>
-                                <h4>Tổng chi phí: <span>$ {totalAmount}</span></h4>
+                                <h4>Tổng chi phí: <span>${totalAmount}</span></h4>
                             </div>
                         </Col>
                     </Row>

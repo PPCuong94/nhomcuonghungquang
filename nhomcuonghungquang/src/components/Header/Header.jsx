@@ -96,7 +96,7 @@ const Header = () => {
                 <h1>
                   <Link to="home">
                     {" "}
-                    Cake <span className="maucam">Store</span>
+                    Cake<span className="maucam">Store</span>
                   </Link>
                 </h1>
               </div>

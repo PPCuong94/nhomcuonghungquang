@@ -54,7 +54,7 @@ return (
                         <div>
                             <h6 className='d-flex align-items-center justify-content-between'>
                                 Tổng Giá:
-                                <span className='fs-4 fw-bold'>$ {totalAmount}</span>
+                                <span className='fs-4 fw-bold'>${totalAmount}</span>
                             </h6>
                            
                         </div>
@@ -84,7 +84,7 @@ const Tr = ({ item }) => {
     return <tr>
     <td><img src={item.imgUrl} alt="" /></td>
     <td>{item.productName}</td>
-    <td>$ {item.price}</td>
+    <td>${item.price}</td>
     <td>{item.quantity}</td>
         <td>
             <motion.i

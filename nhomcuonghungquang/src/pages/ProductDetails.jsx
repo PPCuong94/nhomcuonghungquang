@@ -78,7 +78,7 @@ const ProductDetails = () => {
           <Container>
             <Row>
               <Col lg="6">
-                <img src={imgUrl} alt="" />
+                <img src={imgUrl} alt="" className='mt-4' />
               </Col>
               <Col lg="6">
                 <div className="product__detail">
@@ -103,13 +103,13 @@ const ProductDetails = () => {
                     </div>
   
                     <p>
-                      (<span>{avgRating}</span>)ratings
+                      (<span>{avgRating}</span>)Xếp Hạng
                     </p>
                   </div>
   
-                  <div className="d-flex align-items-center gap-3">
-                    <span className="product__price">{price} vnđ</span>
-                    <span>Loại: {category}</span>
+                  <div className="d-flex align-items-center gap-3 ">
+                    <span className="product__price">{price}$</span>
+                    <span><strong>Loại:</strong> {category}</span>
                   </div>
                   <p className="mt-3">{shortDesc}</p>
   
@@ -141,7 +141,7 @@ const ProductDetails = () => {
                     className={`${tab === "rev" ? "active__tab" : ""}`}
                     onClick={() => setTab("rev")}
                   >
-                    Đánh Giá ({reviews.length})
+                    Đánh Giá (<strong>{reviews.length}</strong>)
                   </h6>
                 </div>
                 {tab === "desc" ? (
@@ -230,7 +230,7 @@ const ProductDetails = () => {
                 )}
               </Col>
   
-              <Col lg="12" className="mt-3">
+              <Col lg="12" className="mt-3 mb-4 text-center">
                 <h2 className="related__title">Bạn có thể thích</h2>
               </Col>
   

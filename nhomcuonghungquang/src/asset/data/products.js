@@ -39,11 +39,11 @@ const products = [
     shortDesc:
       "Bánh trung thu của chúng tôi mang đến một trải nghiệm độc đáo với hương vị truyền thống kết hợp cùng sự sáng tạo hiện đại. Hãy cùng chúng tôi kỷ niệm mùa trung thu ấm áp và ngon miệng.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong. ",
     reviews: [
       {
         rating: 4.7,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam.",
       },
     ],
     avgRating: 4.5,
@@ -58,15 +58,15 @@ const products = [
     shortDesc:
       "Dịp trung thu này, hãy để bánh trung thu của chúng tôi làm cho bữa tiệc trở nên đặc biệt hơn. Với các loại bánh đa dạng và hương vị độc đáo, chúng tôi mang đến sự lựa chọn hoàn hảo cho gia đình và bạn bè.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam.",
       },
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Dịp trung thu này, hãy để bánh trung thu của chúng tôi làm cho bữa tiệc trở nên đặc biệt hơn.",
       },
     ],
     avgRating: 4.7,
@@ -81,15 +81,15 @@ const products = [
     shortDesc:
       "Sản phẩm bánh trung thu của chúng tôi là sự kết hợp tinh tế giữa những nguyên liệu tươi ngon và kỹ thuật làm bánh đỉnh cao. Mỗi chiếc bánh là một tác phẩm nghệ thuật để chia sẻ trong dịp trung thu này.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.7,
@@ -103,15 +103,15 @@ const products = [
     shortDesc:
       "Những chiếc bánh trung thu tinh tế của chúng tôi không chỉ ngon mà còn đẹp mắt. Chúng là món quà ý nghĩa để thể hiện tình cảm và sự quan tâm trong dịp trung thu này. Hãy thưởng thức và chia sẻ niềm vui cùng chúng tôi.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.7,
@@ -125,15 +125,15 @@ const products = [
     shortDesc:
       "Sản phẩm bánh trung thu của chúng tôi được làm bằng những nguyên liệu tươi ngon nhất, kết hợp với tình yêu và lòng nhiệt thành. Chúng tôi tự hào mang đến một phần thiêng liêng của truyền thống Việt vào mỗi chiếc bánh.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.7,
@@ -148,15 +148,15 @@ const products = [
     shortDesc:
       "Dịp trung thu là thời gian đoàn tụ và tặng quà cho người thân yêu. Bánh trung thu của chúng tôi không chỉ là một món ăn, mà còn là một cách để thể hiện tình cảm. Hãy chọn chúng tôi để tạo thêm ý nghĩa cho ngày hội này.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.7,
@@ -171,15 +171,15 @@ const products = [
     shortDesc:
       "Bánh trung thu là một phần quan trọng của văn hóa Việt Nam, và chúng tôi hiểu tầm quan trọng của nó. Chất lượng và hương vị là ưu tiên hàng đầu của chúng tôi, để bạn có thể thưởng thức một trung thu ngon lành và đáng nhớ.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.7,
@@ -191,17 +191,17 @@ const products = [
     category: "Bánh Kem",
     price: 30,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.7,
@@ -237,17 +237,17 @@ const products = [
     category: "Bánh Kem",
     price: 29,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.7,
@@ -260,17 +260,17 @@ const products = [
     category: "Bánh Kem",
     price: 29,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.7,
@@ -283,17 +283,17 @@ const products = [
     category: "Bánh Bông Lan",
     price: 5,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -305,17 +305,17 @@ const products = [
     category: "Bánh Kem",
     price: 28,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.7,
@@ -327,17 +327,17 @@ const products = [
     category: "Bánh Bông Lan",
     price: 7,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -350,17 +350,17 @@ const products = [
     category: "Bánh Bông Lan",
     price: 5,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -373,17 +373,17 @@ const products = [
     category: "Bánh Bông Lan",
     price: 6,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -396,17 +396,17 @@ const products = [
     category: "Bánh Bông Lan",
     price: 9,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -419,17 +419,17 @@ const products = [
     category: "Bánh Bông Lan",
     price: 8,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -442,17 +442,17 @@ const products = [
     category: "Bánh Dẻo",
     price: 15,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -465,17 +465,17 @@ const products = [
     category: "Bánh Dẻo",
     price: 15,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -488,17 +488,17 @@ const products = [
     category: "Bánh Dẻo",
     price: 18,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -511,17 +511,17 @@ const products = [
     category: "Bánh Dẻo",
     price: 16,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -534,17 +534,17 @@ const products = [
     category: "Bánh Nướng Trái Cây",
     price: 19,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,
@@ -557,17 +557,17 @@ const products = [
     category: "Bánh Nướng Trái Cây",
     price: 20,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam, thường được ăn vào dịp Tết Trung Thu, còn gọi là Tết Nguyên Tiêu hoặc Tết Trung Nguyên. Đây là một trong những loại bánh Trung Thu phổ biến và yêu thích bởi hương vị đặc trưng của lớp nhân đậu đỏ bên trong.",
     reviews: [
       {
         rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
       {
         rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        text: "Bánh Trung Thu đậu đỏ là một loại bánh truyền thống của người Việt Nam",
       },
     ],
     avgRating: 4.8,

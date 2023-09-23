@@ -71,7 +71,7 @@ const AdminNav = () => {
             <div className='admin__nav-wrapper-top'>
               <div className='logo'>
                 <h2>
-                  Moon<span className='mauthuonghieu'>Cake</span>
+                  Cake<span className='mauthuonghieu'>Store</span>
                 </h2>
               </div>
 

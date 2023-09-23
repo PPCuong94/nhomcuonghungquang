@@ -3,6 +3,7 @@ import "./footer.css";
 
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
+import { color } from "framer-motion";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -14,12 +15,12 @@ const Footer = () => {
             <div className="logo">
               {/* <img src={logo} alt="logo" /> */}
               <div>
-                <h1 className="text-white">Cake Store</h1>
+                <h1 className="text-white">Cake<span className="abc">Store</span></h1>
                 {/* <p>Since 1994</p> */}
               </div>
             </div>
             <p className="footer__text mt-4">
-              Bánh Trung Thu cao cấp nhất. Thương hiệu bánh trung thu Cake Store
+              Bánh Trung Thu cao cấp nhất. Thương hiệu bánh trung thu <span className="abcd">Cake</span><span className="abc">Store </span> 
               là thương hiệu đã có tới nhiều năm hoạt động tại Sài Gòn
             </p>
           </Col>

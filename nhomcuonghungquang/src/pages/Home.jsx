@@ -103,10 +103,10 @@ const Home = () => {
       <section className="trending__products">
         <Container>
           <Row>
-            <Col lg="12" className="text-center">
+            <Col lg="12" className="text-center mb-5">
               <h2 className="section__title">Sản Phẩm Xu Hướng</h2>
             </Col>
-            <ProductsList data={trendingProducts} />
+            <ProductsList  data={trendingProducts} />
           </Row>
         </Container>
       </section>
@@ -114,7 +114,7 @@ const Home = () => {
       <section best__sales>
         <Container>
           <Row>
-            <Col lg="12" className="text-center">
+            <Col lg="12" className="text-center  mb-5">
               <h2 className="section__title">Bán Chạy</h2>
             </Col>
 

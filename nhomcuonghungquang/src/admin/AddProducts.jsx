@@ -95,11 +95,11 @@ const AddProducts = () => {
                   <select className='w-100 p-2'
                     value={enterCategory} onChange={e => setEnterCategory(e.target.value)} >
                     <option value="">Chọn Mục Tải Lên</option>
-                    <option value='Bánh nướng'>Bán Chạy</option>
-                    <option value='Bánh Bông Lan'>Sản Phẩm Mới</option>
-                    <option value='Bánh Dẻo'>Sản Phẩm Phổ Biến</option>
-                    <option value='Bánh Nướng Trái Cây'>Sản Phẩm Mới</option>
-                    <option value='Bánh Kem'>Sản Phẩm Xu Hướng</option>
+                    <option value='Bán Chạy'>Bán Chạy</option>
+                    <option value='Sản Phẩm Mới'>Sản Phẩm Mới</option>
+                    <option value='Sản Phẩm Phổ Biến'>Sản Phẩm Phổ Biến</option>
+                    <option value='Sản Phẩm Mới'>Sản Phẩm Mới</option>
+                    <option value='Sản Phẩm Xu Hướng'>Sản Phẩm Xu Hướng</option>
                   </select>
                 </FormGroup>
               </div>

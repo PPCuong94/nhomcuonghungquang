@@ -27,10 +27,10 @@ const admin__nav = [
     display: 'Tất cả sản phẩm',
     path: '/dashboard/all-products'
   },
-  {
-    display: 'Đơn đặt hàng',
-    path: '/dashboard/orders'
-  },
+  // {
+  //   display: 'Đơn đặt hàng',
+  //   path: '/dashboard/orders'
+  // },
   {
     display: 'Người dùng',
     path: '/dashboard/users'
@@ -70,8 +70,11 @@ const AdminNav = () => {
           <Container>
             <div className='admin__nav-wrapper-top'>
               <div className='logo'>
-                <h2>
+                  <h2>
+                <Link to='home'>
+                  {" "}
                   Cake<span className='mauthuonghieu'>Store</span>
+                </Link>
                 </h2>
               </div>
 

@@ -22,6 +22,8 @@ const AddProducts = () => {
     e.preventDefault();
     setLoading(true);
 
+  
+
     try {
       const docRef = await collection(db, 'products');
       const storageRef = ref(storage, `productImages/${Date.now() + enterProductImg.name}`);
@@ -62,7 +64,9 @@ const AddProducts = () => {
     <section>
       <Container>
         <Row>
-          <Col lg='12'>
+          {
+            loading ? <Col lg='12' className='text-center'>
+              <h5 className='fw-bold'>Đang tải......</h5> </Col> : <Col lg='12'>
             <h4 className='mb-5'>Thêm sản phẩm</h4>
             <Form onSubmit={addProduct}>
             <FormGroup className="form__group">
@@ -95,11 +99,11 @@ const AddProducts = () => {
                   <select className='w-100 p-2'
                     value={enterCategory} onChange={e => setEnterCategory(e.target.value)} >
                     <option value="">Chọn Mục Tải Lên</option>
-                    <option value='Bán Chạy'>Bán Chạy</option>
-                    <option value='Sản Phẩm Mới'>Sản Phẩm Mới</option>
-                    <option value='Sản Phẩm Phổ Biến'>Sản Phẩm Phổ Biến</option>
-                    <option value='Sản Phẩm Mới'>Sản Phẩm Mới</option>
-                    <option value='Sản Phẩm Xu Hướng'>Sản Phẩm Xu Hướng</option>
+                    <option value='Bánh nướng'>Bán Chạy</option>
+                    <option value='Bánh Bông Lan'>Sản Phẩm Mới</option>
+                    <option value='Bánh Dẻo'>Sản Phẩm Phổ Biến</option>
+                    <option value='Bánh Nướng Trái Cây'>Sản Phẩm Mới</option>
+                    <option value='Bánh Kem'>Sản Phẩm Xu Hướng</option>
                   </select>
                 </FormGroup>
               </div>
@@ -110,11 +114,10 @@ const AddProducts = () => {
                   <input type="file" onChange={e=> setEnterProductImg(e.target.files[0])} required />
                 </FormGroup>
               </div>
-              <button className="buy__btn" type='submit' disabled={loading}>
-                {loading ? 'Đang thêm sản phẩm...' : 'Thêm Sản Phẩm'}
-              </button>
+              <button type='submit' className="buy__btn">Thêm Sản Phẩm</button>
             </Form>
           </Col>
+          }
         </Row>
       </Container>
     </section>

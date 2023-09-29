@@ -91,7 +91,7 @@ const Header = () => {
         <Row>
           <div className="nav__wrapper">
             <div className="logo">
-              <img src={logo} alt="logo" />
+              <img src={logo} alt="logo"  onClick={navigateToCart} />
               <div>
                 <h1>
                   <Link to="home">
@@ -139,6 +139,7 @@ const Header = () => {
                   <div className="profile__actions" ref={profileActionRef}>
                     {currentUser ? (
                       <span onClick={logout}>Đăng Xuất</span>
+                     
                     ) : (
                       <div className="d-flex align-items-center justify-content-center flex-column">
                         <Link to="/signup">Đăng Ký</Link>

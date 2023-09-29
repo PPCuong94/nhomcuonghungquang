@@ -88,7 +88,7 @@ const Shop = () => {
                     </Col>
                     <Col lg='6' md='12'>
                         <div className="search__box">
-                            <input type="text" placeholder='Search.....' onChange={handleSearch}/>
+                            <input type="text" placeholder='Tìm kiếm.....' onChange={handleSearch}/>
                             <span><i className="ri-search-line"></i></span>
                         </div>
                     </Col>

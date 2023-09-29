@@ -12,14 +12,14 @@ import heroImg from "../asset/images/Banh1.jpg";
 import ProductsList from "../components/UI/ProductsList";
 
 import Clock from "../components/UI/Clock";
-
+import products from '../asset/data/products';
 import counterImg from "../asset/images/kinh_do.png";
 
-import useGetData from "../custom-hooks/useGetData";
+//import useGetData from "../custom-hooks/useGetData";
 
 const Home = () => {
-  const { data: products, loading } = useGetData("products");
-
+  //const { data: products,  } = useGetData("products");
+  const [productsData, setProductData] = useState(products)
   const [trendingProducts, setTrendingProducts] = useState([]);
   const [bestSalesProducts, setBestSalesProducts] = useState([]);
   const [mobileProducts, setMobileProducts] = useState([]);

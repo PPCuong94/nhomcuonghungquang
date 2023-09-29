@@ -17,13 +17,13 @@ const Dashboard = () => {
           <Col className="lg-3">
             <div className='revenue__box'>
               <h5 className=' fw-bold'>Tổng Doanh Thu</h5>
-              <span>$9999</span>
+              <span>1234$</span>
             </div>
           </Col>
           <Col className="lg-3">
             <div className='order__box'>
               <h5 className=' fw-bold'>Đơn Hàng</h5>
-              <span>9999</span>
+              <span>16</span>
             </div>
           </Col>
           <Col className="lg-3">
